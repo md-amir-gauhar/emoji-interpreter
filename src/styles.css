@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Sacramento&display=swap");
 
-.App > header {
+header {
   font-family: "Bangers", cursive;
   letter-spacing: 0.1rem;
   text-align: center;
 }
 
-h1 {
+.heading {
   background: -webkit-linear-gradient(red, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  height: 45px;
 }
 
 input {
@@ -20,4 +23,36 @@ input {
   border-radius: 5rem;
   outline: none;
   caret-color: red;
+}
+
+.emoji-meaning {
+  text-align: center;
+  width: 5px 70%;
+  margin: 10px auto;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+}
+
+.emojis {
+  width: 90%;
+  margin: 10px auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.emoji {
+  cursor: pointer;
+}
+
+footer > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 1.7rem;
+  font-family: "Sacramento", cursive;
+  letter-spacing: 2px;
 }
