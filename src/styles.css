@@ -1,4 +1,23 @@
-.App {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+.App > header {
+  font-family: "Bangers", cursive;
+  letter-spacing: 0.1rem;
   text-align: center;
+}
+
+h1 {
+  background: -webkit-linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+  font-size: 1.2rem;
+  color: gray;
+  border-radius: 5rem;
+  outline: none;
+  caret-color: red;
 }
